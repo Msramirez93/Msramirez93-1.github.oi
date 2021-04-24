@@ -4,17 +4,12 @@ body{
 }
 /*body {margin: 1rem;}
 #currentdate {color:#4b7;}*/
-
-
 header,
 main,
 footer{
      max-width: 760px;
      margin: 0 auto;
 }
-
-
-
 header, 
 footer{
   border:1px solid #bbb;
