@@ -1,0 +1,10 @@
+@media all and (min-width: 540px) {
+    main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 13px;
+    }
+    #container {
+      max-width: 800px;
+    }
+  }
