@@ -1,7 +1,7 @@
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #bed;
+	background-color :#EDCB96;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
