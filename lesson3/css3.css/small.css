@@ -111,7 +111,7 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-.sitemap {
+/*.sitemap {
   display: grid;
   justify-content: center;
 
@@ -141,7 +141,7 @@ nav a:hover {
   grid-area: page3;
   background-color: #999;
   line-height: 3em;
-}
+}*/
 
 .top {
   grid-area: top;
