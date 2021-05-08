@@ -1,33 +1,8 @@
-
-:root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #002642;
-  --secondary-color: #840032;
-  --accent1-color: #E59500;
-  --accent2-color: #E5DADA;
-
-  /* change the values below to your chosen font(s) */
-  --heading-font: verdana;
-  --paragraph-font: Arial, Helvetica, sans-serif;
-
-  
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #EDCB96;
-  --nav-link-color: #E59500;
-  --nav-background-color: #840032;
-  --nav-hover-link-color: #002642;
-  --nav-hover-background-color: #E5DADA;
-}
-
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
 html {
-  background-color: var(--primary-color);
+  background-color: #EDCB96;
 }
 body {
+  
   max-width: 940px;
   margin: 0 auto;
   background-color: white;
@@ -37,7 +12,7 @@ img {
   max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: 'Source Sans Pro', sans-serif;
   color: var(--headline-color-on-white);
 }
 header {
