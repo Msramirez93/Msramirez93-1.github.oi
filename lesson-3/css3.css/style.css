@@ -87,9 +87,11 @@ main{
 }
 .persona-one {
 	margin-left: 25px;
+	text-align: center;
 }
-.persona-two {
+.persona-two, ul, li  {
 	margin-left: 25px;
+	text-align: left;
 }
 colors {
 	width: 100%;
