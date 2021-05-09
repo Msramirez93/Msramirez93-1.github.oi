@@ -37,7 +37,7 @@ footer {
 h1 {
 	font-family: Source sans Pro, sans-serif;
 	font-size: 2rem;
-    Color: rgb(214, 207, 197);
+    Color: rgb(151, 115, 65);
 }
 h2 {
 	color: black;
@@ -45,11 +45,11 @@ h2 {
 }
 h3,
 h4 {
-    color: rgb(214, 207, 197);
+    color: rgb(124, 85, 29);
 	font-family: Source sans Pro, sans-serif;
 }
 h5 {
-	color: rgb(214, 207, 197);
+	color: rgb(194, 139, 62);
 }
 nav ul { display: flex; }
 		nav ul li  { flex: 1 1 100%; }
