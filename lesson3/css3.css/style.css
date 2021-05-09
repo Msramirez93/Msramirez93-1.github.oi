@@ -1,162 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,200;1,700&display=swap" rel="stylesheet');
 :root {
-  
-  --primary-color: #4d4861;
-  --secondary-color: #605770;
-  --accent1-color: #9E7682;
-  --accent2-color: #edcb96;
-
-
-  /* tipos de fuentes */
-  --heading-font: sans-serif;
-  --paragraph-font: Source Sans Pro, sans-serif;
-
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: black;
-  --nav-link-color: #e5dada;
-  --nav-background-color: #4d4861;
-  --nav-hover-link-color: #9e7682;
-  --nav-hover-background-color: #605770;
+	/* change the values below to your colors from your palette */
+	--primary-color: #4d4861;
+	--secondary-color: #605770;
+	--accent1-color: 	#9e7682;
+	--accent2-color: 	#edcb96;
+	--accent3-color: 	#f7c4a5;
 }
 
-
-
-html {
-  background-color: var(--primary-color);
-}
 body {
-  max-width: 940px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 1em;
-}
-img {
-  max-width: 100%;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
-}
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+    margin: 0 auto;
+	font-size: 16px;
+	font-family: Source sans Pro, sans-serif;
+    
 }
 
-p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
-  padding: 1em;
+header,
+footer {
+	background-color: #9e7682;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	
 }
 
-.colors {
-  width: 100%;
-  min-width: 350px;
-  margin: auto;
-  text-align: center;
-}
-.colors th {
-  background-color:#999;
-}
-.colors td{
-  width: 25%;
-  height: 3em;
+header,
+nav,
+main,
+footer {
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.primary {
-  background-color: var(--primary-color);
+	
+h1 {
+	font-family: Source sans Pro, sans-serif;
+	font-size: 2rem;
+    Color: rgb(214, 207, 197);
 }
-.secondary {
-  background-color: var(--secondary-color);
+h2 {
+	color: black;
+	font-family:  Source sans Pro, sans-serif;
 }
-.accent1 {
-  background-color: var(--accent1-color);
+h3,
+h4 {
+    color: rgb(214, 207, 197);
+	font-family: Source sans Pro, sans-serif;
 }
-.accent2{
-  background-color: var(--accent2-color);
+h5 {
+	color: rgb(214, 207, 197);
 }
-
-p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
-}
+nav ul { display: flex; }
+		nav ul li  { flex: 1 1 100%; }
 
 nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
+    background-color: #4d4861;
+	text-align: center;
+    
+	}
+nav a{
+    color:#605770; 
 }
-nav > ul {
-  list-style-type: none;
-  display: flex;
 
+nav ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
 }
-nav a {
-  padding:1em;
-  min-width: 70px;
-}
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+nav ul li a { 
+    display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+	background-color: #bbb;
+    color: #4d4861;
 }
 
-/*.sitemap {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
-}
-.sitemap > div {
-
-  text-align: center;
-
-}*/
-/*.sm-home {
-  grid-area: home;
-  background-color: #999;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #999;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #999;
-  line-height: 3em;
-}
-*/
-.top {
-  grid-area: top;
-  border-left: 1px solid;
+main{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
+colors {
+	width: 100%;
+	min-width: 350px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 10%;
+  }
+  .colors th {
+	background-color: #999;
+  }
+  .colors td{
+	width: 20%;
+	height: 3em;
+  }
+  
+  .primary {
+	background-color: var(--primary-color);
+  }
+  .secondary {
+	background-color: var(--secondary-color);
+  }
+  .accent1 {
+	background-color: var(--accent1-color);
+  }
+  .accent2{
+	background-color: var(--accent2-color);
+  }
+  .accent3{
+	background-color: var(--accent3-color);
+  }
 
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
+footer {
+	flex: 0 1 100%;
+	height: 6rem;
+    color: #D9DBF1;
+	margin-top: 40px;
 }
