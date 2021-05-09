@@ -85,7 +85,12 @@ main{
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.persona-one {
+	margin-left: 25px;
+}
+.persona-two {
+	margin-left: 25px;
+}
 colors {
 	width: 100%;
 	min-width: 350px;
