@@ -85,6 +85,12 @@ main{
     padding-left: 10px;
     padding-right: 10px;
 }
+.target .list{
+	margin: 0 auto;
+	align-self: center;
+	
+
+}
 /*.persona-one {
 	margin-left: 25px;
 	text-align: center;
