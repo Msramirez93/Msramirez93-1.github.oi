@@ -85,14 +85,14 @@ main{
     padding-left: 10px;
     padding-right: 10px;
 }
-.persona-one {
+/*.persona-one {
 	margin-left: 25px;
 	text-align: center;
 }
 .persona-two, ul, li  {
 	margin-left: 25px;
 	text-align: left;
-}
+}*/
 colors {
 	width: 100%;
 	min-width: 350px;
