@@ -1,156 +1,44 @@
-/* phone or baseline views **************************/
-header,
-footer {
-	background-color :#EDCB96;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,200;1,700&display=swap" rel="stylesheet');
+:root {
+  
+  --primary-color: #4d4861;
+  --secondary-color: #605770;
+  --accent1-color: #9E7682;
+  --accent2-color: #edcb96;
 
-header,
-nav,
-main,
-footer {
-	max-width: 767px;
-	margin: 0 auto;
-}
-h1 {
-	font-size: 2rem;
-}
-h2 {
-	color: #536878;
-}
+  /* change the values below to your chosen font(s) */
+  --heading-font: sans-serif;
+  --paragraph-font: Source Sans Pro, sans-serif;
 
-nav {
-	background-color: #36454f;
-	text-align: center;
-	box-shadow: 0 2px 15px gray;
-}
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-}
-nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
-}
-.active {
-	color: yellow;
-}
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
-}
-main article {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #eee;
-}
-main picture {
-	display: none;
-	margin: 0.5rem;
-}
-
-footer {
-	flex: 0 1 100%;
-	height: 2rem;
-}
-
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	/* Horizontal Menu Examples */
-	/* Flex *********************/
-	/*	nav ul { display: flex; }
-		nav ul li { flex: 1 1 100%; }
-	*/
-
-	/* Grid *********************/
-			nav ul { 
-				display: grid;
-				/*grid-template-columns: repeat(5, 1fr);*/
-				grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-			}
-
-	/* Inline-Block             */
-	/*
-			nav li {display: inline-block;}
-	*/
-
-	/* Float                    */
-	/*
-			nav li {float:left; margin-right:15px;}
-			main {clear:both;}
-	*/
-
-/*******************************************************/
-	
-	nav a {
-		font-size: 1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
-	article:nth-child(3) {
-		grid-column: span 2;
-	}
-	main picture {
-		display: block;
-	}
-	main picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
-}
-
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-	nav a {
-		font-size: 1.1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-	article:nth-child(3) {
-		grid-column: span 1;
-	}
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: black;
+  --nav-link-color: #e5dada;
+  --nav-background-color: #4d4861;
+  --nav-hover-link-color: #9e7682;
+  --nav-hover-background-color: #605770;
 }
 
 
 
-
-
-
-/*html {
-  background-color: #605770;
+html {
+  background-color: var(--primary-color);
 }
 body {
-  
   max-width: 940px;
   margin: 0 auto;
-  background-color: #EDCB96;
+  background-color: white;
   padding: 1em;
 }
 img {
   max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: black;
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
 }
 header {
   padding: 1em;
@@ -221,7 +109,7 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
-}*/
+}
 
 /*.sitemap {
   display: grid;
@@ -238,8 +126,8 @@ nav a:hover {
 
   text-align: center;
 
-}
-.sm-home {
+}*/
+/*.sm-home {
   grid-area: home;
   background-color: #999;
   line-height: 3em;
@@ -253,9 +141,9 @@ nav a:hover {
   grid-area: page3;
   background-color: #999;
   line-height: 3em;
-}*/
-
-/*.top {
+}
+*/
+.top {
   grid-area: top;
   border-left: 1px solid;
 }
@@ -270,7 +158,4 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}*/
-
-
-
+}
