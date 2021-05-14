@@ -1,92 +1,119 @@
 body {
-	font-size: 16px;
-	font-family: 'Acme', sans-serif;
-  background-color: #B5838D;
+  background-color: #E6E6E6;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-img {
-	box-shadow: 0 0 30px #333;
-    width: 100PX;
-		height: auto;
-		border: 1px solid #bbb;
-  
-}
- * {
-    box-sizing: border-box;
-    font-family: "Acme", sans-serif;
-    line-height: 1.4em;
-  }
-  a {
-    text-decoration: none;
-    color: #6F1A07;
-    font-size: 0.7em;
-  }
-  a:hover {
-    color: #C36F09;
-  }
-  img {
-    width: 100%;
-    box-shadow: 0 10px 6px -6px rgb(119, 119, 119);
-    border: 0.5px solid #C36F09;
-  }
-  #container {
-    min-width: 400px;
-    margin: 25px auto;
-    border: 10px solid #BCE7FD;
-    padding: 15px 20px 20px 20px;
-  }
-  
-  header,
-  footer {
-    padding: 10px;
-    background-color: #B5838D;
-    color: #C36F09;
-    text-align: center;
-  }
-  h1 {
-    font-size: 3em;
-    margin-bottom: 0;
-    letter-spacing: 1.3px;
-  }
-  main {
-    display: block;
-    width: 100%;
-    margin: 32px 0 40px 0;
-  }
-  
-  ul {
-    background-color: #BCE7FD;
-    border-radius: 3px;
-    padding: 20px 10px;
-    list-style: none;
-  }
-  
-  li:first-child {
-    font-size: 1.3em;
-    margin-bottom: 20px;
-    padding: 3px 0;
-    border-bottom: 1px solid #C36F09;
-  }
-  li:nth-of-type(4) {
-    margin: 15px 0 20px 0;
-  }
-  footer {
-    line-height: 2em;
-    margin-top: 20px;
-    padding: 15px 0;
-  }
-#container > p a,
-footer a,
-nav a {
-  font-size: 1em;
-  color:#510001;
-}
-#container > p a:hover,
-footer a:hover,
-nav a:hover {
-  color: #C36F09;
+
+header {
+  display: flex;
+  background-color: #E6E6E6;
+  color: rgb(0, 0, 0, 0.8)
 }
 
-#currentDate {
+.logo {
+  width: 50px;
+  padding: 0 20px;
+}
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #E6E6E6;
+}
+
+nav {
+  background: #7A9DD7;
+background: -moz-linear-gradient(top,  rgba(103,145,213,0.7) 0%, rgba(103,145,213,0.7) 11%, rgba(103,145,213,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b36791d5', endColorstr='#6791d5',GradientType=0 ); /* IE6-9 */
+
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+font-size: 1em;
+margin-top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 8rem 2%;
+  text-decoration: none;
+  color:#E6E6E6;
+  border-top: 1px solid rgb(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+nav ul li.active a{
+  background-color: #487bcd;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: #3667b6;
+}
+
+nav ul.hide {
   display: none;
-}    
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main {
+  background-color: #E6E6E6;
+  
+}
+
+.main_city {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 10px;
+}
+
+.contents {
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  background-color: #c1d2ee;
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+footer {
+ text-align: center;
+ background: #7A9DD7;
+ background: -moz-linear-gradient(top,  rgba(103,145,213,0.7) 0%, rgba(103,145,213,0.7) 11%, rgba(103,145,213,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b36791d5', endColorstr='#6791d5',GradientType=0 ); /* IE6-9 */
+  padding: 10px;
+  color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
