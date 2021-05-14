@@ -1,5 +1,8 @@
-@media all and (min-width: 1000px){
-    main {
-      grid-template-columns: repeat(3, 1fr);
-    }
+
+@media only screen and (min-width: 64rem) {
+
+  nav ul li a {
+      padding: .6rem 1rem;
   }
+
+} 
