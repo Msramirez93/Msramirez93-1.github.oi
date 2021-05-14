@@ -98,7 +98,7 @@ main {
 
 footer {
  text-align: center;
- background: #9E7682;/*accent1-color*/
+ background: #9E7682; /*accent1-color*/
  background: -moz-linear-gradient(top,  rgba(103,145,213,0.7) 0%, rgba(103,145,213,0.7) 11%, rgba(103,145,213,1) 100%); /* FF3.6-15 */
  background: -webkit-linear-gradient(top,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* Chrome10-25,Safari5.1-6 */
  background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
