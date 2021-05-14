@@ -1,6 +1,6 @@
 body {
-  background-color: #E6E6E6;
-  font-family: 'Roboto', sans-serif;
+  background-color: #4D4861;
+  font-family: source sans pro, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -8,7 +8,7 @@ body {
 
 header {
   display: flex;
-  background-color: #E6E6E6;
+  background-color: #605770;
   color: rgb(0, 0, 0, 0.8)
 }
 
@@ -21,7 +21,7 @@ nav button {
   background-color: transparent;
   border: none;
   font-size: 1.6rem;
-  color: #E6E6E6;
+  color: #EDCB96;
 }
 
 nav {
