@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,200;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css4/normalize.css">
+    <link rel="stylesheet" href="css4/style.css">
+    <link rel="stylesheet" href="css4/small.css">
+    <link rel="stylesheet" href="css4/medium.css">
+    <link rel="stylesheet" href="css4/large.css">
     <title>Preston</title>
 </head>
 <body>
     
+    <header>
+        <picture>
+        <img class="logo" src="images4/logo-icon.png"  alt="Logo image" /></picture>
+        <!--<div>-->
+        <section class="headings">
+            <h1>The Weather Club!</h1>
+             <!--<h2>--->
+                 <div class="m">Providing the best weather information service</div>
+       <!-- </div>--->
+       </section>
+    </header>
+    <!-- nav for the small-->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>    
+            <li><a href="#">Storm Center</a></li>    
+            <li><a href="#">Gallery</a></li>    
+        </ul>
+    </nav>
+    <main>
+        <h2 class="main_city">Preston Idaho</h2>
+       <div class="contents">Hero image/weather summary</div>
+       <div class="contents">5 day forecast</div>
+       <div class="contents">Article</div>
+       <div class="contents">Contact information</div>
+    </main>
+
+    <footer>
+        <div class="footer"> ©
+            <span id="date"></span>
+            | Melany Salome Ramirez
+
+           
+        </div>
+    </footer>
+
+<script src="js4/date.js"></script>
+<script src="js4/script.js"></script>
 </body>
 </html>
