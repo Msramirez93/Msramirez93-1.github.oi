@@ -9,7 +9,8 @@ body {
 header {
   display: flex;
   background-color: #4D4861;/*primary-color*/
-  color: rgb(0, 0, 0, 0.8)
+  color: rgb(0, 0, 0, 0.8);
+  justify-content: center;
 }
 
 .logo {
