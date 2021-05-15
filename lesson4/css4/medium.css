@@ -4,12 +4,18 @@
          float: right;
     }*/
     @media all and (min-width: 540px) {
-        main {
+       /* main {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           grid-gap: 13px;
-        }
+        }*/
         #container {
           max-width: 800px;
         }
+        
       }
+      
+      nav ul li {
+        display: flex;
+      }
+      

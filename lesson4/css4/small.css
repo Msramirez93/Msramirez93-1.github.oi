@@ -49,7 +49,7 @@ nav ul {
 }
 
 nav ul li a {
-  display: block;
+  display: flex;
   padding: 8rem 2%;
   text-decoration: none;
   color:black;
@@ -72,8 +72,9 @@ nav ul.hide {
 
 .clearfix::after {
   content: "";
-  display: table;
+  /*display: table;*/
   clear: both;
+  
 }
 
 main {
