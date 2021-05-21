@@ -1,0 +1,111 @@
+body {
+    background-color: #605770;/*secondary-color*/
+    font-family: source sans pro, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  header {
+    display: flex;
+    background-color: #4D4861;/*primary-color*/
+    color: rgb(0, 0, 0, 0.8);
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 100px;
+    padding: 0 20px;
+  }
+  nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #EDCB96;/*accent2-color*/
+  }
+  
+  nav {
+    background: #9E7682;/*accent1-color*/
+  /*background: -moz-linear-gradient(top,  rgba(103,145,213,0.7) 0%, rgba(103,145,213,0.7) 11%, rgba(103,145,213,1) 100%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b36791d5', endColorstr='#6791d5',GradientType=0 ); /* IE6-9 */
+  
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  h2 {
+  font-size: 1em;
+  margin-top: 0;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 8rem 2%;
+    text-decoration: none;
+    color:black;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    padding: 10px;
+  }
+  
+  nav ul li.active a{
+    background-color: #EDCB96;/*accent2-color*/
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    background-color: #EDCB96;/*accent2-color*/
+  }
+  
+  nav ul.hide {
+    display: none;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  main {
+    background-color: #d7e8ba;
+    
+  }
+  
+  .main_city {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+  }
+  
+  .contents {
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    background-color: #c1d2ee;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    background: #9E7682; /*accent1-color*/
+    /*background: -moz-linear-gradient(top,  rgba(103,145,213,0.7) 0%, rgba(103,145,213,0.7) 11%, rgba(103,145,213,1) 100%); /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(top,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom,  rgba(103,145,213,0.7) 0%,rgba(103,145,213,0.7) 11%,rgba(103,145,213,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b36791d5', endColorstr='#6791d5',GradientType=0 ); /* IE6-9 */
+     padding: 10px;
+     color: #fff;
+   
+   }
