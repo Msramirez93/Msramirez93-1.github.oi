@@ -7,8 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,200;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css5/normalize-5.css">
-  <!--<link rel="shortcut icon" href="favicon (2).ico" type="image/x-icon">-->
-    <!--<link rel="shortcut icon-logo3" href="favicon (2).ico">-->
     <link rel="shortcut icon" href="favicon (2).ico">
     <link rel="stylesheet" href="css5/small-5.css">
     <link rel="stylesheet" href="css5/medium-5.css">
@@ -16,6 +14,9 @@
      <title>Weather site Preston</title>
 </head>
 <body>
+    <div class="banner">
+        Saturday = Preston Pancake in the Park! 9:00 a.m. Saturday at the city park pavilion.
+     </div>
     <header>
        <img class="logo" src="images5/icon-logo3.png"  alt="Logo image" />
         <div>
@@ -37,10 +38,144 @@
     </nav>
     <main>
         <h2 class="main_city">Preston Idaho</h2>
+        <div class="contents">
+          <img src="images5/img-banner.jpg" alt="banner" class="picture">
+          <section class="summarybox">
+                <h2 class=weather_summary>Weather Summary</h2>
+
+                <p>Currently: <span id="currently">Sunny</span></p>
+                <p>High: <span id="high">76&deg;F</span></p>
+    
+                <p>Wind Chill: <span id="wind">&deg;F</span></p>
+                
+                <p>Humidity: <span id="humidity">69%</span></p>
+                
+                <p>wind Speed: <span id="speed">5 mph</span></p>
+          </section>
+        </div>
+
+        <div class="forecast">
+          <h2 class="forecast_title">
+            5 Day Forecast
+          </h2>
+
+          <table class="table_forecast">
+           <tbody>
+             <tr>
+               <th class="day">
+                 <p class="day">wed</p>
+               </th>
+               <th class="day">
+                 <p class="day">Thu</p>
+               </th>
+               <th class="day">
+                 <p class="day">Fri</p>
+               </th>
+               <th class="day">
+                 <p class="day">Sat</p>
+               </th>
+               <th class="day">
+                 <p class="day">Sun</p>
+               </th>
+             </tr>
+             <tr>
+               <th>
+                 <img src="images5/sunnyday (1).png" alt="sunnyday" class="broadcast">
+               </th>
+               <th>
+                 <img src="images5/sunnyday (1).png" alt="sunnyday" class="broadcast">
+               </th>
+               <th>
+                 <img src="images5/sunnyday (1).png" alt="sunnyday" class="broadcast">
+               </th>
+               <th>
+                 <img src="images5/sunnyday (1).png" alt="sunnyday" class="broadcast">
+               </th>
+               <th>
+                 <img src="images5/sunnyday (1).png" alt="rain" class="broadcast">
+               </th>
+              
+            </tr>
+            
+             <tr>
+               <th>
+                 <p class="temperature">87°F</p>
+               </th>
+               <th>
+                 <p class="temperature">90°F</p>
+               </th>
+               <th>
+                 <p class="temperature">92°F</p>
+               </th>
+               <th>
+                 <p class="temperature">89°F</p>
+               </th>
+               <th>
+                 <p class="temperature">93°F</p>
+               </th>
+            </tr>
+            
+           </tbody>
+          </table>
+        </div>
+      
+        <div class="article">
+            <img src="images5/hurracane.jpg" alt="hurricane Ana's" class="HAna">
+            <h3 class="article_">Ana forms in the Atlantic, becoming the first named storm of the Atlantic hurricane season</h3>
+            <h4>By Haley Brink, CNN Meteorologist,Updated 11:13 AM ET, Sat May 22, 2021</h4>
+            <p class="article_text">Subtropical Storm Ana formed early Saturday morning, becoming the first named storm of the 2021 Atlantic hurricane season. This now marks the seventh year in a row in which at least one named storm has formed prior to the start of Atlantic hurricane season which officially begins June 1.
+
+                This is not the first year that a subtropical storm has marked the beginning of Atlantic hurricane season. Mostly recently, 2019 and 2018 featured Subtropical Storms Andrea and Alberto, which were the first named storms of the season to form in their respective years. <a href="https://us.cnn.com/2021/05/22/weather/ana-tropical-storm-atlantic-hurricane-season/index.html">Read full article</a> </p>
+             
+          </div>  
+          <div class="contact_info">
+            <!--<iframe src="https://www.google.com/maps/place/Preston,+Idaho+83263,+EE.+UU./@42.0997416,-111.9153446,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map_picture"></iframe>-->
+            <a target="_blank" href="https://www.google.com/maps/place/Preston,+Idaho+83263,+EE.+UU./@42.0997416,-111.9153446,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173"> <img class="map_picture" src="images5/map-preston.png" alt="map-preston"> </a> 
+             <div class="contact">
+               <h2 class="con">Contact Information</h2>
+               <p class="con_1"><img src="images5/ubicacion.png" alt="location icon" class="icon">30 N 1st E <br> Preston, ID 83263</p>
+               <p class="number">999 999 9999 <br>TheWeatherClub.com </p>
+              
+               <div class="social">
+                <a
+                target="_blank"
+                href="https://www.facebook.com/jonaticadirectionerjb"
+              >
+                <img
+                  src="images5/0facebook-logo.jpg"
+                  alt="facebook"
+                  height="40"
+                  width="40"
+                />
+              </a>
+              <a target="_blank" href="https://www.instagram.com/lovetotravel93/">
+                <img
+                  src="images5/insta-logo.jpg"
+                  alt="instagram"
+                  height="40"
+                  width="40"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://ar.pinterest.com/foreverjoantik/_saved/"
+              >
+                <img
+                  src="images5/pinterest-logo.png"
+                  alt="pinterest"
+                  height="40"
+                  width="40"
+                />
+              </a>
+              </div>
+             </div> 
+           </div>
+
+       <!-- <h2 class="main_city">Preston Idaho</h2>
        <div class="contents">Hero image/weather summary</div>
        <div class="contents">5 day forecast</div>
        <div class="contents">Article</div>
-       <div class="contents">Contact information</div>
+       <div class="contents">Contact information</div>-->
     </main>
 
     <footer>

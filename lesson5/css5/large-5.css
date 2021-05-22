@@ -1,8 +1,74 @@
-@media only screen and (min-width: 64rem) {
+/*@media only screen and (min-width: 64rem) */
+@media only screen and (min-width: 1025px){
 
     nav ul li a {
         padding: .6rem 1rem;
         
     }
-  
+    main {
+        max-width: 1440px;
+      
+    }
+
+    .picture {
+       object-fit: cover;
+       object-position: 80% 20% ;
+    }
+
+    .main_city {
+        font-size: 2.6em;
+        padding: 30px;
+    }
+
+    .summary {
+        width: 400px;
+        height: 270px;
+        padding: 25px;
+        top: 100px;
+    }   
+
+
+    .weather_summary {
+        font-size: 2.1em;
+    }
+
+    p {
+        font-size: 1.8em;
+    }
+
+
+    .article {
+        width: 900px;
+        margin: auto;
+    }
+
+    .HAna {
+        float: right;
+        width: 50%;
+        margin: 10px 20px;
+        padding: 0;
+        
+    }
+
+    .contact_info {
+        width: 900px;
+    }
+
+    .contact {
+        font-size: 0.5em;
+    }
+
+    .con {
+        font-size: 2em;
+        padding: 0;
+    }
+
+    .map_picture {
+        max-width: 500px;
+    }
+
+    .last_update {
+        font-size: 1em;
+    }
+
   } 
