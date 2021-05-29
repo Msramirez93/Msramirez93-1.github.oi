@@ -14,3 +14,4 @@ const dayOfWeek = new Date().getDay();
 if (dayOfWeek === 5) {
     banner.classList.add('visible');
 }
+ WebFont.load({google: {families: ['Acme']}});
