@@ -1,0 +1,261 @@
+body {
+    background-color: #605770;/*secondary-color*/
+    font-family: source sans pro, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  .banner{
+    background: #f3ed91;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 5px 15px 4px rgb(104 104 104 / 30%);
+    z-index: 1;
+    position: relative;
+    display: none;
+  }
+  .def-img{
+      display: block;
+      width: 100%;
+      height: 26rem;
+  }
+  .visible {
+    display: block;
+}
+  header {
+    display: flex;
+    background-color: #4D4861;/*primary-color*/
+    color: rgb(0, 0, 0, 0.8);
+    
+  }
+  .logo {
+    width: 50px;
+    padding: 0 20px;
+  }
+  nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #EDCB96;/*accent2-color*/
+  }
+  
+  nav {
+    background: #9E7682;/*accent1-color*/
+ }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  h2 {
+  font-size: 1em;
+  margin-top: 0;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 8rem 2%;
+    text-decoration: none;
+    color:black;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    padding: 10px;
+  }
+  
+  nav ul li.active a{
+    background-color: #EDCB96;/*accent2-color*/
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    background-color: #EDCB96;/*accent2-color*/
+  }
+  
+  nav ul.hide {
+    display: none;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  main {
+    background-color: #d7e8ba;
+    
+  }
+  
+  .main_city {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+  }
+  
+  .contents {
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    background-color: #c1d2ee;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    background: #9E7682; /*accent1-color*/
+     padding: 10px;
+     color: #fff;
+   
+   }
+   .picture {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.contents {
+    position: relative;
+}
+.summary {
+    position: absolute;
+    width: 160px;
+    left: 30px;
+    top: 30px;
+
+    background: rgba(255, 255, 255, 0.2);
+    filter: blur(20px);
+    border-radius: 5px;
+
+    color: white;
+    padding: 5px;
+}   
+.summarybox {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 2rem 3rem;
+  width: 30rem;
+  top: 5rem;
+  left: 5rem;
+  
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+.forecast_title {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.forecast {
+  text-align: center;
+}
+
+.table_forecast {
+  width: 300px;
+  margin: 0 auto;
+  border-spacing: 0;
+  border: 1px solid rgb(197, 197, 197);
+  margin-bottom: 20px;
+}
+
+.day {
+  text-align: center;
+  background: #9EB5DC;
+  color: white;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.temperature {
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.article {
+  padding: 20px;
+  box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+  font-size: 1.6em;
+  margin: 30px;
+}
+
+.article_ {
+  margin: 0;
+}
+.HAna {
+  width: 80%;
+  text-align: center;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+h4 {
+  margin: 5px 0;
+  font-style: italic;
+  color: #384862;
+  font-size: .5em;
+}
+
+.article_text {
+  margin: 10px 0 ;
+}
+.preston {
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  
+}
+
+.icon {
+  max-width: 30px;
+}
+
+.contact_info {
+  padding: 20px;
+  box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+  font-size: 1.6em;
+  margin: 0 auto;
+}
+.map_picture {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+}
+.contact {
+  width: 300px;
+  font-size: .8em;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}   
+.con {
+  margin: 20px;
+}
+
+.con_1 {
+  margin: 10px 10px 30px 10px;
+}
+.number {
+  margin: 10px;
+}
+
+
+.social img {
+  width: 30px;
+}

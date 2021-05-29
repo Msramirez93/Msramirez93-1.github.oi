@@ -1,0 +1,77 @@
+@media only screen and (min-width: 629px) {
+    nav button {
+        display: none;
+    }
+  
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+    }
+  
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+  
+    nav ul.hide {
+        display: block;
+    }
+  .def-img{
+      display: block;
+      width: 100%;
+      height: 35rem;
+  }
+    main {
+       
+       margin: 0 auto;
+    }
+
+    .summary {
+        width: 220px;
+        height: 130px;
+        left: 60px;
+        top: 70px;
+        padding: 10px;
+        color: antiquewhite;
+    }
+    
+    .weather_summary {
+        font-size: 1.1em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+
+    .table_forecast {
+        width: 628px;
+        
+    }
+    .article_text {
+        font-size: 0.8em;
+    }
+     .contact_info {
+        width: 628px;
+        margin: 50px auto;
+        display: flex;
+    }
+    .map_picture {
+        max-width: 300px;
+    }
+
+    .HAna {
+        max-width: 550px;
+    }
+    .contact {
+        text-align: left;
+    }
+    .con {
+        margin: 10px;
+    }
+    .social {
+        margin: 10px;
+    }
+}
