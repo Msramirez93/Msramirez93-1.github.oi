@@ -75,3 +75,15 @@
         margin: 10px;
     }
 }
+/*gallery 7*/
+.gall-header{
+    text-align: center;
+}
+.gallery7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+ 
+    }

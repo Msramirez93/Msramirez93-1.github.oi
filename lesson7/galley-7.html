@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lesson6/css-6/normalize-6.css">
+    <link rel="shortcut icon" href="../lesson6/favicon (2).ico">
+    <link rel="stylesheet" href="../lesson6/css-6/small-6.css">
+    <link rel="stylesheet" href="../lesson6/css-6/medium-6.css">
+    <link rel="stylesheet" href="../lesson6/css-6/large-6.css">
+    <title>Gallery 7</title>
+</head>
+<body>
+    <div class="banner">
+        Saturday = Preston Pancake in the Park! 9:00 a.m. Saturday at the city park pavilion.
+     </div>
+    <header>
+       <img class="logo" src="../lesson6/images-6/icon-logo3.png"  alt="Logo image" />
+        <div>
+           <h1>The Weather Club!</h1>
+             <h2>Providing the best weather information service</h2>
+       </div>
+    </header>
+    <!-- nav for the small-->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>    
+            <li><a href="#">Storm Center</a></li>    
+            <li><a href="../lesson7/galley-7.html">Gallery</a></li>    
+        </ul>
+    </nav>
+    <main>
+        <h2 class="main_city">Preston Idaho</h2>
+        <div class="contents">
+          <picture>
+            <source media="(max-width:525px )" srcset="../lesson6/images-6/small-week6.jpg">
+            <source media="(max-width:800px)" srcset="../lesson6/images-6/medium-week6.jpg">
+            <source media="(max-width: 1200px)" srcset="../lesson6/images-6/large-week61.jpg"> 
+            <!--<img src="images-6/img-banner.jpg" alt="banner" class="picture">-->
+            <img class="def-img" src="../lesson6/images-6/hero-week6.jpg" alt="hero img">
+          </picture>
+          <section class="summarybox">
+                <h2 class=weather_summary>Weather Summary</h2>
+
+                <p>Currently: <span id="currently">Sunny</span></p>
+                <p>High: <span class="temperature"></span></p>
+                <p>Humidity: <span id="humidity">48%</span></p>
+                <p>Wind Chill: <span class="wChill"></span></p>
+                <p>wind Speed: <span class="speed"></span></p>
+          </section>
+        </div>
+        <main>
+            
+            <div class="content">
+        <h1 class="gall-header">Weather Gallery</h1>
+        <!--<button id="button">click</button>-->
+        <div class="gallery7">
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/fall1400x300.jpg" alt="fall">
+                <figcaption>autumn the ideal weather to prepare for winter</figcaption>
+            </picture>
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/fall2400x300.jpg" alt="fall2">
+                <figcaption>enjoy the range of yellow colors that nature offers us at this time!</figcaption>
+            </picture>
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/winter1400x300.jpg" alt="winter1">
+                <figcaption>appreciating the beautiful landscapes that winter gives us!</figcaption>
+            </picture>
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/winter2400x300.jpg" alt="winter2">
+                <figcaption>a beautiful christmas postcard!</figcaption>
+            </picture>
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/spring1400x300.jpg" alt="spring1">
+                <figcaption>nothing better than starting to see the colors of spring!</figcaption>
+            </picture>
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/spring2400x300.jpg" alt="spring2">
+                <figcaption>enjoy warm sunny days!</figcaption>
+            </picture>
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/summer1400x300.jpg" alt="summer1">
+                <figcaption>beaches, sand and sun to enjoy the summer!</figcaption>
+            </picture>
+            <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/summer2400x300.jpg" alt="summer2">
+                <figcaption>i need vitamin sea!</figcaption>
+            </picture>
+           <picture class="lila"><img src="../lesson7/images7/placeholder400x300.png" data-src="images7/strom400x300.jpg" alt="storm">
+                 <figcaption>a stormy day with this beautiful landscape!</figcaption>
+           </picture>
+
+
+
+    </div>
+    </main>
+        <footer>
+            <div class="footer"> ©
+                <span id="date"></span>
+                | Melany Salome Ramirez
+            </div>
+            <p>Last Modified: <span id="lastmod"></span></p>
+          
+        </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../lesson6/script-6/date-6.js"></script>
+    <script src="../lesson6/script-6/js-6.js"></script>
+    <script src="js7/script-7.js"></script>
+    <script src="../lesson6/script-6/windchill.js"></script>
+    <script src="js7/times7.js"></script>
+    
+</body>
+</html>

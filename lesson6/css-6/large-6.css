@@ -76,3 +76,22 @@
     }
 
   } 
+  /*gallery7*/
+  .gall-header{
+      text-align: center;
+  }
+  .gallery7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 18px;
+    justify-self: center;
+   
+} 
+.lila{
+    padding: auto;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
