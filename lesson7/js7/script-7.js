@@ -30,3 +30,4 @@ if ('IntersectionObserver' in window) {
       loadImages(img);
   });
 }
+WebFont.load({google: {families: ['Acme']}});
