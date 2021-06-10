@@ -41,37 +41,6 @@ body {
 .odd {
     background: #e7f0ed;
 }
-
-
-
-/*table,
-thead,
-th,
-tr,
-td {
-    font-size: 25px;
-    font-family: Ubuntu, sans-serif;
-    text-align: center;
-    border: 1px solid  rgb(167, 167, 167);
-    padding: 10px;
-}
-
-h1 {
-    text-align: center;
-}
-
-table {
-    max-width: 1200px;
-    margin: 0 auto;
-    border-collapse: collapse;
-    box-shadow: 15px 15px 25px 8px  #0e85aa ;
-}
-
-thead th {
-    background-color: #7fb9c2;
-    font-size: 40px;
-}*/
-
 tfoot tr th {
     font-weight: 200;
     background-color: #7fb9c2;

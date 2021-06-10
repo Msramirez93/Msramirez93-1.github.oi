@@ -1,3 +1,16 @@
+/*const lastVisit =localStorage.getItem('lastvisit')|| Date.now();
+let daysBetween = (lastVisit - Date.now());
+if (daysBetween <1){
+  message = "Welcome. this is your first visit."
+}
+else{
+  message = 'You visited this page <strong>${daysBetween}</strong> days ago.';
+}
+document.querySelector('#lastvisit').innerHTML = message;
+localStorage.setItem('lastvisit',Data.now());*/
+
+
+
 /*function counter_fn(){
     var counter = $('#cntr span').text(); // geting value from span
     var count = 0;
