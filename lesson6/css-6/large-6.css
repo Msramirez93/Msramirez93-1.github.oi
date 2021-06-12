@@ -95,3 +95,25 @@
 img{
     max-width: 100%;
 }
+.storm{
+    text-align: center;
+}
+/*received page*/
+.thankYou {
+  
+    width: 600px;
+    margin-top: 10px;
+    align-items: center;
+ 
+}
+.grapes{
+    text-align: center;
+    font-size: 25px;
+    font-family:'ACME', sans-serif;
+    letter-spacing: 1px;
+}
+.text1 {
+    width: 500px;
+    margin: 2rem 3rem 2rem;
+  
+}

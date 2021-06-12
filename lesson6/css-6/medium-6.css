@@ -87,3 +87,68 @@
     grid-row-gap: 50px;
  
     }
+    .storm{
+        text-align: center;
+    }
+    /*storm page*/
+    .storm1 {
+        font-size: 40px;
+        } 
+    .stormcenter {
+        width: 600px;
+        margin:0 auto;
+    }
+    .storm {
+    
+        font-size: 18px; 
+        
+    }
+    .danger {
+    
+        font-size: 23px;
+    }
+    
+    form label.third {
+       font-size: 20px;
+        
+        }
+        
+    form label.first input {
+        display:block;
+        width:60%;
+        }
+    
+        form label.second select, form label.second input {
+            display:block;
+            width:60%;
+        }
+        form label.first {
+            font-size: 20px;
+            }
+    
+        form legend {
+                color:#1b1a1a;
+                font-size: 35px;
+                margin:0 1rem 1rem;
+                padding: 1.5rem 0.5rem 0rem;
+                }
+            form label.second {
+                font-size: 20px; 
+              }    
+        form input.button {
+            
+            width:30%;
+            margin: 0 13rem 1.5rem;
+            font-size: 30px;
+          
+          }
+          .textarea {
+            display:block;
+            margin: 1rem 1.5rem 1rem;
+            width: 90%;
+          }
+          form label.four {
+            font-size: 20px;
+        }
+        
+     
