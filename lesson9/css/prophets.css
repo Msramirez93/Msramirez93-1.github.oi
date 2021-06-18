@@ -1,9 +1,6 @@
-/* header {
-    margin-top: 20px;
-} */
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 h1, h2 {
-    font-family: 'Rockwell', serif;
+    font-family: 'ACME', sans-serif;
     text-align: center;
     color: #4C4E97;
     margin: 30px 0 5px 0;
@@ -24,8 +21,8 @@ main {
 }
 
 section {
-    background-color: #B9B9CC;
-    border: solid 2px #4C4E97;
+    background-color: #e2c2ff;
+    border: solid 2px #f1dac4;
     padding-bottom: 16px;
     margin: 5px;
   }
