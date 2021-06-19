@@ -150,5 +150,40 @@
           form label.four {
             font-size: 20px;
         }
+        /*medium for lesson 9 index page*/
+        .mouse{
+            background-color: #e2c2ff;
+          }
+        .cards {
+            display: block;
+            background: #704c5c;
+            padding: 20px;
+            box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+            font-size: 1.6em;
+            margin: 30px;
+        }
         
-     
+        .cards img {
+            display: block;
+            width: calc(100% + 20px);
+            margin: 10px -10px -10px;
+        }
+        
+        .cards section {
+            background: #e2c2ff;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        .cards h2 {
+            font-size: 1em;
+            margin: 10px 0 5px 0;
+        }
+        
+        .cards h3 {
+            font-size: .5em;
+            margin: 0 0 10px 0;
+        }
+        .cards p {
+            font-size: .7em;
+        }

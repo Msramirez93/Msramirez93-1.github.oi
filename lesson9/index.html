@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lesson6/css-6/normalize-6.css">
+    <link rel="shortcut icon" href="../lesson6/favicon (2).ico">
+    <link rel="stylesheet" href="../lesson6/css-6/small-6.css">
+    <link rel="stylesheet" href="../lesson6/css-6/medium-6.css">
+    <link rel="stylesheet" href="../lesson6/css-6/large-6.css">
+    <title>Home Page</title>
+</head>
+<body class="mouse">
+    <div class="banner">
+        Saturday = Preston Pancake in the Park! 9:00 a.m. Saturday at the city park pavilion.
+     </div>
+    <header>
+       <img class="logo" src="../lesson6/images-6/icon-logo3.png"  alt="Logo image" />
+        <div>
+           <h1>The Weather Club!</h1>
+             <h2>Providing the best weather information service</h2>
+       </div>
+    </header>
+     <!-- nav for the small-->
+     <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../index.html">Portal Home</a></li>
+            <li class="active"><a href="../lesson9/index.html">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>    
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>    
+            <li><a href="../lesson7/galley-7.html">Gallery</a></li>    
+        </ul>
+    </nav>
+    <main class="mouse">
+        <h2 class="main_city mouse">Preston Idaho</h2>
+        <div class="contents">
+          <picture>
+            <source media="(max-width:525px )" srcset="../lesson6/images-6/small-week6.jpg">
+            <source media="(max-width:800px)" srcset="../lesson6/images-6/medium-week6.jpg">
+            <source media="(max-width: 1200px)" srcset="../lesson6/images-6/large-week61.jpg"> 
+            <!--<img src="images-6/img-banner.jpg" alt="banner" class="picture">-->
+            <img class="def-img" src="../lesson6/images-6/hero-week6.jpg" alt="hero img">
+          </picture>
+          <div class="cards"></div>
+          <div class="background"> 
+            <div class="article">
+                <img src="../lesson6/images-6/hurracane-hero.jpg" alt="tropical Storm" class="HAna">
+                <h3 class="article_">Tropical storm warning for northern Gulf Coast, with flooding likely through Saturday</h3>
+                <h4>By Ian Livingston ,June 18, 2021 at 2:07 p.m. GMT-3</h4>
+                <p class="article_text">A developing tropical storm is headed toward the northern Gulf Coast, where it is expected to unload up to a foot of flooding rain. Landfall of the storm system is expected late Friday night into Saturday morning along the Louisiana shoreline.
+
+                    A tropical storm warning is in effect for nearly 7 million people, including the populations of New Orleans; Mobile, Ala.; and Biloxi, Miss. The warning zone spans the area east of Morgan City, La., to the Florida Panhandle east of Pensacola. <a href="https://www.washingtonpost.com/weather/2021/06/18/claudette-flooding-new-orleans-louisiana/">Read full article</a> </p>
+            </div>
+        </div>
+        </div>
+    </main>
+        <footer>
+            <div class="footer"> ©
+                <span id="date"></span>
+                | Melany Salome Ramirez
+            </div>
+            <p>Last Modified: <span id="lastmod"></span></p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="../lesson6/script-6/date-6.js"></script>
+        <script src="../lesson6/script-6/js-6.js"></script>
+        <script src="js9/lesson9.js"></script>
+    </body>
+</html>
