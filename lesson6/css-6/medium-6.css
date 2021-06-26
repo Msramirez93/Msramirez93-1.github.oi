@@ -45,11 +45,16 @@
     p {
         font-size: 1em;
     }
-
-    .table_forecast {
-        width: 628px;
-        
+     /*Preston forecast */
+     .forecastdiv {
+        display: flex;
+        width: 70%;
+        margin: 30px auto;
     }
+    .forecasts {
+        display: block;
+    }
+    
     .article_text {
         font-size: 0.8em;
     }
