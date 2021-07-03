@@ -433,3 +433,12 @@ form label.four {
 .cards p {
   font-size: 0.7em;
 }
+/*soda springs*/
+.eventsSoda {
+  background-color: #8b575c;
+  width: 50%;
+  border: 2px solid rgb(54, 21, 30);
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
