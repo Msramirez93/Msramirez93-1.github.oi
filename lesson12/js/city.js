@@ -1,4 +1,4 @@
-const URL_events = "https://Msramirez93-1.github.io/lesson12/home.html/pagecity.json";
+const URL_events = "https://github.com/Msramirez93/Msramirez93-1.github.oi/lesson12/js/pagecity.json";
 
 fetch(URL_events)
     .then(function(response) {
