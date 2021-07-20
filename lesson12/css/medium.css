@@ -36,8 +36,11 @@
     .forecasts {
         display: block;
     }
-    
+.mapa {
+     width: 300px;
+     height: 400;
 }
+
 /*city BA*/
 .historyCity {
     font-size: 36px;
@@ -128,7 +131,7 @@
     #btnContainer {
         margin: 0 130px 30px 130px;
     }
-    /* ----------- CARD LIST--------- */
+    /* CARD */
     .cards_view_list .card {
         display: flex;
         max-width: 930px;
@@ -201,3 +204,4 @@
     margin: 10px;
     box-sizing: border-box;
   }
+}
