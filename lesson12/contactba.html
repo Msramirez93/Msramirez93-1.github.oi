@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../lesson12/images/buildings.png" />
+    <link rel="shortcut icon" href="../lesson12/images12/buildings.png" />
     <link rel="stylesheet" href="../lesson12/css/normalize.css">
     <link rel="stylesheet" href="../lesson12/css/styles.css">
     <link rel="stylesheet" href="../lesson12/css/medium.css">
@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <a href="../lesson12/index.html"><img class="logo" src="../lesson12/images/logocity.png" alt="Logo image" /></a>
+        <a href="../lesson12/index.html"><img class="logo" src="../lesson12/images12/logocity.png" alt="Logo image" /></a>
         <div>
             <h1>
                 Buenos Aires chamber of comerce
@@ -34,12 +34,74 @@
         </nav>
     </header>
     <main>
- 
- 
+        <div class="banner typeR">
+            <p class="paragraph-1">
+              You can contact me through my social media or if you wish you can
+              send a message in this space and without a doubt I will answer
+              your message as soon as possible.
+            </p>
+          </div>
+        </div>
+  
+        <p class="email-whatsapp">
+          <img class="gmail-personal" src="images12/gmail.png" alt="gmail-logo" class="mediared" />
+  
+          melany.salome.ramirez@gmail.com
+  
+          <img class="whatsappnumber" src="images12/whatsapp.png" alt="whatsApp-logo" class="mediared" />
+  
+          whatsapp: +5491149802303
+        </p>
+  
+        <div class="formulario" id="contacto">
+          <form method="get" action="received.html">
+            <fieldset>
+              <legend>Visitor Information</legend>
+              <label class="first">Full Name:
+                <input type="text" name="full-name" required pattern="[\sA-Za-z]{5,}" /></label>
+  
+              <label class="first">Email:
+                <input type="email" name="email" placeholder="happyday@gmail.com" /></label>
+  
+              <label class="first">Phone Number:
+                <input type="tel" name="phone" placeholder="***-***-****" required /></label>
+  
+              <label class="first">Zip code:
+                <input type="number" name="zip" pattern="(\d{5}([\-]\d{4})?)" placeholder="Insert Zip code" /></label>
+            </fieldset>
+            <input type="submit" value="Send" class="button" />
+          </form>
+          <h2 class="con">Contact Information</h2>
+          <p class="con_1">
+              <img src="../lesson12/images12/mapa.png" alt="location icon" class="icon" />
+              Recoleta,Buenos Aires
+          </p>
+          <p class="number">+549-1149802303 <br />BuenosAiresChamber.com</p>
 
-
-
-
+          <div class="social">
+              <a target="_blank" href="https://www.facebook.com/jonaticadirectionerjb">
+                  <img src="../lesson12/images12/facebook.png" alt="facebook" class="mediared" />
+              </a>
+              <a target="_blank" href="https://www.instagram.com/lovetotravel93/">
+                  <img src="../lesson12/images12/instagram.png" alt="instagram" class="mediared" />
+              </a>
+              <a target="_blank" href="https://ar.pinterest.com/foreverjoantik/_saved/">
+                  <img src="../lesson12/images12/pinterest.png" alt="pinterest" class="mediared" />
+              </a>
+          </div>
+      </div>
 </main>
+<footer>
+  <div class="footer">
+      &copy;
+      <span id="date"></span>
+      | Melany Salome Ramirez|Buenos Aires,Argentina
+  </div>
+
+  <p>Last Modified: <span id="lastmod"></span></p>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="../lesson12/js/date.js"></script>
 </body>
 </html>
