@@ -1,5 +1,5 @@
 // for the cards
-const requestURL = "https://katekosm.github.io/lesson12/directory_page/directory.json";
+const requestURL = "https://msramirez93.github.io/Msramirez93-1.github.oi/directoryba.json";
 
 fetch(requestURL)
     .then(function(response) {
@@ -22,7 +22,7 @@ fetch(requestURL)
             let workHours = document.createElement('p');
 
             card.setAttribute('class', 'card');
-            photo.setAttribute('src', 'images/' + business[i].photo);
+            photo.setAttribute('src', 'images12/' + business[i].photo);
             photo.setAttribute('class', 'card_logo');
             photo.setAttribute('alt', 'logo image');
             part1.setAttribute('class', 'part_1');
