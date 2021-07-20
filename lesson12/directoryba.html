@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../lesson12/images/buildings.png" />
+    <link rel="shortcut icon" href="../lesson12/images12/buildings.png" />
     <link rel="stylesheet" href="../lesson12/css/normalize.css">
     <link rel="stylesheet" href="../lesson12/css/styles.css">
     <link rel="stylesheet" href="../lesson12/css/medium.css">
@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <a href="../lesson12/index.html"><img class="logo" src="../lesson12/images/logocity.png" alt="Logo image" /></a>
+        <a href="../lesson12/index.html"><img class="logo" src="../lesson12/images12/logocity.png" alt="Logo image" /></a>
         <div>
             <h1>
                 Buenos Aires chamber of comerce
@@ -25,21 +25,54 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li class="active"><a href="../lesson12/index.html"></a>Home </li>
+                <li><a href="../lesson12/index.html"></a>Home </li>
                 <li><a href="../lesson12/cityba.html"></a>City</li>
                 <li><a href="../lesson12/joinba.html"></a>Join</li>
-                <li><a href="../lesson12/directoryba.html"></a>Directory</li>
+                <li class="active"><a href="../lesson12/directoryba.html"></a>Directory</li>
                 <li><a href="../lesson12/contactba.html"></a>Contact</li>
             </ul>
         </nav>
     </header>
     <main>
- 
- 
+        <div class="wrap">
+            <h1 class="title">Here you can find some local business organizations:</h1>
+            <div id="btnContainer">
+            <button class="btn btn_grid active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+            </div>
+         <div class="cards"></div>
 
+         <div class="contact">
+            <h2 class="con">Contact Information</h2>
+            <p class="con_1">
+                <img src="../lesson12/images12/mapa.png" alt="location icon" class="icon" />
+                Recoleta,Buenos Aires
+            </p>
+            <p class="number">+549-1149802303 <br />BuenosAiresChamber.com</p>
 
-
-
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/jonaticadirectionerjb">
+                    <img src="../lesson12/images12/facebook.png" alt="facebook" class="mediared" />
+                </a>
+                <a target="_blank" href="https://www.instagram.com/lovetotravel93/">
+                    <img src="../lesson12/images12/instagram.png" alt="instagram" class="mediared" />
+                </a>
+                <a target="_blank" href="https://ar.pinterest.com/foreverjoantik/_saved/">
+                    <img src="../lesson12/images12/pinterest.png" alt="pinterest" class="mediared" />
+                </a>
+            </div>
+        </div>
 </main>
+<footer>
+    <div class="footer">
+        &copy;
+        <span id="date"></span>
+        | Melany Salome Ramirez|Buenos Aires,Argentina
+    </div>
+
+    <p>Last Modified: <span id="lastmod"></span></p>
+ 
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="../lesson12/js/date.js"></script>
 </body>
 </html>

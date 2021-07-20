@@ -370,7 +370,7 @@ footer {
 /*CITY BA*/
 .historyCity {
   text-align: center;
-  font-family: "Legacy Sans ITC Pro", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin: 30px auto;
@@ -409,7 +409,7 @@ footer {
 }
 
 .upcoming_events {
-  font-family: "Legacy Sans ITC Pro", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
@@ -420,7 +420,7 @@ footer {
 
 .gallery {
   text-align: center;
-  font-family: "Legacy Sans ITC Pro", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin: 30px auto;
@@ -444,4 +444,127 @@ footer {
 
 figcaption {
   padding: 10px 0;
+}
+/*join ba*/
+.mate{
+  text-align: center;
+  font-size: 1rem;
+  font-family:'Noto Sans JP', sans-serif; 
+  background-color: #fecee9;
+  color: #121212;
+}
+.colortext{
+  text-decoration: #011C27;
+  text-transform: capitalize;
+  
+}
+/* ------ form  ------ */
+
+form fieldset {
+  border: 2px solid #03254E;
+  margin: 30px 0;
+  box-shadow: 1px 12px 14px 0px #fecee9;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+legend {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.first {
+  width: 81%;
+  display: block;
+}
+
+.option {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.user-1 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+form label.info input {
+  padding: 16px;
+  margin-top: 5px;
+}
+
+.form label.top,
+form label.info {
+  display: block;
+  padding: 10px 0 5px 0;
+  font-size: 19px;
+  margin: 2px auto;
+}
+
+form label.info input:required {
+  border-left: 6px solid #eb9fef;
+  width: 79%;
+}
+
+form label.top input,
+form label.info input {
+  border: 1px solid #545677;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.textarea {
+  margin: 0;
+  font-size: 19px;
+  padding-top: 10px;
+}
+
+#comments {
+  padding: 13px;
+  width: 83%;
+  margin-top: 5px;
+}
+
+#submitBtn {
+  background-color: rgb(2,0,36);
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#submitBtn:hover {
+  background-color: white;
+  color: #003561;
+  border-color: #003561;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+form label.radio {
+  display: block;
+  text-align: left;
+}
+/*received 1 page*/
+.text1 {
+  max-width: 100%;
+  border-style: hidden;
+  background-color: #edcb96;
+  padding: 2.5rem 1px 2.5rem;
+  margin-top: 2px 2px;
+  border: 3px solid black;
+  /*border-radius: 20%;*/
+}
+.grapes {
+  color:#000;
+  text-align: center;
+  font-size: 25px;
+  font-family: "ACME", sans-serif;
+  letter-spacing: 1px;
+}
+.thankYou {
+  margin: 2rem 0 -1rem;
 }

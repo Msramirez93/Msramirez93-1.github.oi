@@ -89,3 +89,32 @@
 .src {
     display: flex;
 }
+/*join ba*/
+    /* FORM */
+    legend {
+        font-size: 30px;
+        max-width: 830px;
+    }
+    form {
+        max-width: 830px;
+        margin: 0 auto;
+    }
+    form label.info input:required {
+        border-left:  6px solid #eb9fef;
+        width: 80%;
+    }
+    #submitBtn {
+        font-size: 20px;
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    #comments {
+        width: 82%;
+    }
+    form fieldset {
+        padding-left: 40px;
+    }
+    .option {
+        font-size: 18px;
+    }

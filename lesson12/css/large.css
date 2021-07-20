@@ -24,7 +24,8 @@
         padding: 30px;
     }
 /*city Ba*/
-.historyCity {
+.historyCity
+ {
     font-size: 48px;
     padding: 79px 0 57px 185px;
     text-align: left;
@@ -60,4 +61,23 @@
 .picture {
     width: 30%;
 }
+/*join ba*/
+ /* FORM */
+ form label.top,
+ form label.info {
+     font-size: 24px;
+ }
+ .textarea {
+     font-size: 24px;
+ }
+ form fieldset {
+     padding-left: 60px;
+ }
+ .option {
+     font-size: 22px;
+ }
+ .user-1 {
+     font-size: 30px;
+ }
+ 
 }
