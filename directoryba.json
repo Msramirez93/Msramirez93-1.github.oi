@@ -1,0 +1,75 @@
+{
+    "business": [{
+            "name": "Iglesia Nuestra Señora del pilar",
+            "photo": "iglesia- de pilar.jpg",
+            "number": 5491148036793,
+            "website": "https://basilicadelpilar.org.ar/",
+            "address": "Address: JUNÍN 1892  | Recoleta, CABA",
+            "workHours": "Work Hours: 8:0am - 20:00pm"
+        },
+        {
+            "name": "La recova de Posadas",
+            "photo": "recova.jpg",
+            "number": 5491143267333  ,
+            "website": "https://larecovadeposadas.com.ar/",
+            "address": "Address:Posadas 1069| Recoleta, CABA",
+            "workHours": "Work Hours: 24hs"
+        },
+        {
+            "name": "Recoleta Mall",
+            "photo": "rmall.png",
+            "number": 5491148080605,
+            "website": "https://www.recoletamall.com.ar/",
+            "address": "Address:Vicente lopez 2050| Recoleta, CABA",
+            "workHours": "Work Hours: 24 hours"
+        },
+        {
+            "name": "Negocios Inmobiliarios",
+            "photo": "aviso-aq-agenda.jpg",
+            "number": 5491148115723,
+            "website": "http://www.aqinmobiliaria.com.ar/",
+            "address": "Address:Rodriguez Peña 1399|Recoleta,CABA",
+            "workHours": "Work Hours: 8:00am - 17:00pm"
+        },
+        {
+            "name": "Centro Cultural Recoleta",
+            "photo": "culreco2.jpg",
+            "number": 5491148031040,
+            "website": "http://www.centroculturalrecoleta.org/",
+            "address": "Address: junin 1930|Recoleta,CABA",
+            "workHours": "Work Hours: 12:00pm 21:00pm"
+        },
+        {
+            "name": "Pilates Reformer",
+            "photo": "gim.jpg",
+            "number": 5491148213969,
+            "website": "NA",
+            "address": "Address: Arenales 2250|Recoleta,CABA ",
+            "workHours": "Work Hours: 8:00am 23:00pm"
+        },
+        {
+            "name": "Jean Pierre's",
+            "photo": "joyeria.jpg",
+            "number": 5491148046668,
+            "website": "NA",
+            "address": "Address: Avenida Alvear 1892|Recoleta,CABA",
+            "workHours": "Work Hours: 10.00am - 18:00pm"
+        },
+        {
+            "name": "DOWN TOWN MATIAS",
+            "photo": "downtown-logo.jpg",
+            "number": 5491148024141,
+            "website": "http://www.downtownmatias.com/",
+            "address": "Address:AV. PUEYRREDÓN Y AV. LIBERTADOR|Recoleta,CABA",
+            "workHours": "Work Hours: 10.00am - 24:00am"
+        },
+        {
+            "name": "Tradiciones Argentinas",
+            "photo": "logo-tradiciones-argentinas.jpg",
+            "number": 84957777756,
+            "website": "https://tradicionesargentinas.com/",
+            "address": "Address: ayacucho 1958|Recoleta,CABA",
+            "workHours": "Work Hours: 9.00am - 10.00pm"
+        }
+    ]
+}
