@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    color: white;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 33%, rgba(253,29,29,1) 59%, rgba(252,176,69,1) 86%);
+  }
+  /*.def-img {
+    display: block;
+    width: 100%;
+    height: 26rem;
+  }*/
+  .visible {
+    display: block;
+  }
+  header {
+    /*display: flex;*/
+    background-color: #4d4861; /*primary-color*/
+    color: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    width: 80px;
+    padding: 0 20px;
+    
+  }
+/* NAVIGATION HERE  */
+
+nav {
+  border: 1px solid #003561;
+}
+
+li {
+  color: #003561;
+  list-style-type: none;
+  font-family: "Legacy Sans ITC Pro", sa;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav button {
+  /* margin: .2rem 2%; */
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  color: #003561;
+  padding: 10px 44px;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #003561;
+  border-top: 1px solid #003561;
+  padding: 44px 44px;
+}
+
+nav ul li a:hover {
+  background-color: #003561;
+  color: white;
+}
+
+.active {
+  background-color: #FF9241;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+
+  /*nav button {
+    /*margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #edcb96; /*accent2-color
+  }
+  
+  nav {
+    background: #03254e; /*accent1-color
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 1em;
+    margin-top: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav li{
+    font-size: 1.6rem;
+    word-spacing: 30px;
+  }
+  nav ul li a {
+    display:  block;
+    padding: 8rem 2%;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    padding: 10px;
+  
+}
+  
+  nav ul li.active a {
+    background-color: #fecee9; /*accent2-color
+    color: #fff;
+    
+  }
+  
+  nav ul ,li:hover, a:hover {
+    background-color: #fecee9; /*accent2-color
+    cursor: pointer;
+  }
+  
+  nav ul.hide {
+    display: none;
+  }*/
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.main_city {
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  background-color: #edcb96;
+  color: #121212;
+}
+
+.contents {
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  /*background-color: #c1d2ee;*/
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background: #9e7682; /*accent1-color*/
+  padding: 10px;
+  color: #fff;
+}
+.picture {
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+.contents {
+  position: relative;
+}
+.summary {
+  position: absolute;
+  width: 160px;
+  left: 30px;
+  top: 30px;
+
+  /*background: rgba(255, 255, 255, 0.2);*/
+  filter: blur(20px);
+  border-radius: 5px;
+
+  color: white;
+  padding: 5px;
+}
+
+  .banner {
+    min-height: 450px;
+    height: 50vh;
+    background-image: url(../images/floralisGenerica1200.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+  }
+  #novedades .productos {
+    max-width: 950px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  #novedades .box {
+    float: left;
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 100px;
+  }
+  img:hover {
+    box-shadow: 0 0 50px #4e8098;
+    border: 1px solid black;
+  }
+  #novedades .box .raft {
+    display: block;
+    padding-bottom: 1rem;
+    width: 50%;
+  }
+  #novedades .titulo {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  .clear {
+    clear: both;
+  }
+  .action {
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 1em 3em;
+    padding: 1em;
+    text-align: center;
+    background-image: url(../images12/floralisGenerica1200.jpg);
+  }
+  .action button {
+    line-height: 2em;
+    width: 10em;
+    background-color: #9eefe5;
+    font-size: 1.2em;
+  }
+  button:hover {
+    background-color: #fecee9;
+    color: #000;
+    font-family:'Noto Sans JP', sans-serif;
+  }
+  #forecastTitle {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .forecastdiv {
+    display: block;
+  }
+  
+  .forecast1 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #121212;
+    padding: 15px;
+    width: 60%;
+    align-items: center;
+  }
+  
+  .forecasts div {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .inside {
+    text-align: center;
+    justify-content: center;
+  }
+  .article {
+    padding: 20px;
+    box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+    font-size: 1.6em;
+    margin: 30px;
+  }
+  
+  .article_ {
+    margin: 0;
+  }
+  .PFrancia{
+    width: 80%;
+    text-align: center;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h4 {
+    margin: 5px 0;
+    font-style: italic;
+    color: #384862;
+    font-size: 0.5em;
+  }
+  
+  .article_text {
+    margin: 10px 0;
+  }
+  
+.home-headline-1,
+.home-headline-2 {
+  text-align: center;
+  word-spacing: 5px;
+  background-color: #edcb96;
+  color: #121212;
+  font-size: 2rem;
+}
+.home-headline-1,
+.homeHedaline-2 {
+  text-align: center;
+  word-spacing: 5px;
+}
+.mapa {
+  box-shadow: 0 0 50px #446474;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.con {
+  text-align: center;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.mediared {
+  height: 40px;
+  width: 40px;
+}
+.icon {
+  max-width: 30px;
+}
+
+.contact_info {
+  padding: 20px;
+  box-shadow: 0px 4px 30px 15px rgba(104, 104, 104, 0.1);
+  font-size: 1.6em;
+  margin: 0 auto;
+}
+.map_picture {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+}
+.contact {
+  width: 300px;
+  font-size: 0.8em;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.con {
+  margin: 20px;
+}
+
+.con_1 {
+  margin: 10px 10px 30px 10px;
+}
+.number {
+  margin: 10px;
+  color: #fff;
+}
+.social img {
+  width: 30px;
+}
+/*CITY BA*/
+.historyCity {
+  text-align: center;
+  font-family: "Legacy Sans ITC Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 30px auto;
+}
+
+.textCity {
+  padding: 0 23px 17px 24px;
+  margin: 0 auto;
+}
+
+.block_2 {
+  padding: 0 23px 17px 24px;
+}
+
+.city_pic1,
+.city_pic2 {
+  width: 250px;
+}
+
+.city_pic2 {
+  padding: 0 23px 17px 24px;
+}
+
+.text_2 {
+  margin-top: 0;
+  padding: 0 23px 17px 24px;
+}
+
+
+/* EVENTS   */
+
+.events {
+  padding: 20px;
+  margin: 29px 24px 59px 24px;
+  border: 1px solid #003561;
+}
+
+.upcoming_events {
+  font-family: "Legacy Sans ITC Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+/* PHOTO GALLERY */
+
+.gallery {
+  text-align: center;
+  font-family: "Legacy Sans ITC Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 30px auto;
+}
+
+.container {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.picture {
+  width: 80%;
+  padding: 10px;
+  box-shadow: 0 10px 12px 0 rgb(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+figcaption {
+  padding: 10px 0;
+}
