@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
 body {
-    padding: 0;
-    margin: 0;
+    /*padding: 0;
+    margin: 0;*/
     font-family:'Noto Sans JP', sans-serif;
     font-weight: 400;
     color: white;
@@ -32,83 +32,29 @@ body {
     
   }
 /* NAVIGATION HERE  */
-
-/*nav {
-  border: 2px solid #003561;
-}
-
-li {
-  color: #003561;
-  list-style-type: none;
-  font-family: "Legacy Sans ITC Pro", sa;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav button {
-  /* margin: .2rem 2%; 
-  background-color: transparent;
-  border: none;
-  font-size: 2em;
-  color: #003561;
-  padding: 10px 44px;
-  margin: 0;
-}
-
-nav ul li a {
-  display: block;
-  text-decoration: none;
-  color: #003561;
-  border-top: 1px solid #003561;
-  padding: 44px 44px;
-}
-
-nav ul li a:hover {
-  background-color: #003561;
-  color: white;
-}
-
-.active {
-  background-color: #FF9241;
-}
-
-nav ul.hide {
-  display: none;
-}*/
-
-
-  nav button {
-    /*margin: 0.2rem 2%;*/
+ nav button {
+    margin: .3rem 3%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
     color: #edcb96; /*accent2-color*/
   }
-  
+  nav button:hover{
+    cursor: pointer;
+  }
   nav {
-    background: #03254e; /*accent1-color*/
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    background-color: #03254e; /*accent1-color*/
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.3);
+    border-radius: 5px;
   }
-  
-  h1 {
-    margin-bottom: 0;
-  }
-  
-  h2 {
-    font-size: 1em;
-    margin-top: 0;
-  }
-  
-  nav ul {
+    nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  nav li{
-    font-size: 1.6rem;
-    word-spacing: 30px;
   }
   nav ul li a {
     display:  block;
@@ -117,18 +63,21 @@ nav ul.hide {
     color: black;
     border-top: 1px solid rgb(0, 0, 0, 0.3);
     padding: 10px;
+    font-family:'Noto Sans JP', sans-serif;
   
 }
   
   nav ul li.active a {
     background-color: #fecee9; /*accent2-color*/
-    color: #fff;
+    color: #121212;
+
     
   }
   
-  nav ul ,li:hover, a:hover {
+ nav ul li a:hover {
     background-color: #fecee9; /*accent2-color*/
     cursor: pointer;
+    color:#000;
   }
   
   nav ul.hide {
@@ -140,7 +89,14 @@ nav ul.hide {
     display: table;
     clear: both;
   }
+  h1 {
+    margin-bottom: 0;
+  }
   
+  h2 {
+    font-size: 1em;
+    margin-top: 0;
+  } 
 .main_city {
   text-align: center;
   font-size: 2rem;
